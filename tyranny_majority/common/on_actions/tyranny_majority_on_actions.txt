@@ -1,0 +1,10 @@
+##########################################################################
+# Tyranny of the Majority On Actions
+# by Lucas Pinheiro Silva
+##########################################################################
+
+on_bi_yearly_pulse = {
+  events = {
+    tyranny_majority.1001
+  }
+}

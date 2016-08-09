@@ -1,0 +1,67 @@
+##########################################################################
+# Tyranny of the Majority Government Types
+# by Lucas Pinheiro Silva
+##########################################################################
+
+# Majority Rule
+majority_rule = {
+  potential = {
+    hidden_trigger = { NOT = { is_country_type = fallen_empire } }
+  }
+
+  modifier = {
+    pop_ethic_shift = 0.50
+    pop_migration_speed = 0.20
+    planet_migration_xeno_pull = 0.20
+    country_leader_cap = 2
+    country_leader_pool_size = 2
+    trait_points = 1
+    country_core_sector_system_cap = -1
+    country_sector_cap_add = 2
+    num_tech_alternatives_add = 2
+    country_society_tech_research_speed = 0.10
+    influence_gain_mult = -0.20
+  }
+
+  uses_mandates = yes
+  election_term_years = 10
+  election_term_variance = 5 # +/- 5 years
+  re_election_allowed = yes
+  election_type = democratic
+
+  ruler_title = RT_COORDINATOR
+  upgrade = tyranny_majority
+}
+
+# Tyranny of the Majority
+tyranny_majority = {
+  prerequisistes = { "tech_galactic_administration" }
+
+  potential = {
+    hidden_trigger = { NOT = { is_country_type = fallen_emprire } }
+  }
+
+  modifier = {
+    pop_ethic_shift = 1
+    pop_migration_speed = 0.30
+    planet_migration_xeno_pull = 0.30
+    country_leader_cap = 3
+    country_leader_pool_size = 3
+    trait_points = 2
+    country_core_sector_system_cap = -2
+    country_sector_cap_add = 3
+    num_tech_alternatives_add = 4
+    country_society_tech_research_speed = 0.20
+    influence_gain_mult = -0.30
+  }
+
+  uses_mandates = yes
+  election_term_years = 10
+  election_term_variance = 5 # +/- 5 years
+  re_election_allowed = yes
+  election_type = democratic
+
+  ruler_title = RT_COORDINATOR
+
+  pickable_at_start = no
+}

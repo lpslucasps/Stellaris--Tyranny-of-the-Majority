@@ -1,0 +1,38 @@
+﻿l_english:
+ ####################################
+ # Tyranny of the Majority,
+ # by Lucas Pinheiro Silva
+ ####################################
+ # Government type
+ majority_rule:0 "Majority Rule"
+ majority_rule_desc:0 "An extreme form of democracy, where the will of the people and the government are one and the same. The 'ruler' is literally just a coordinator of the numerous and paradoxical whishes of the masses. Even the ethics of the Empire is decided by the masses, in a bi-yearly plebiscite open to all citizens."
+ tyranny_majority:0 "Tyranny of the Majority"
+ tyranny_majority_desc:0 "Democracy taken to its logical extreme, to the point it becomes a dictatorship. A bi-yearly plebiscite open to all citizens decides the ethics of the Empire."
+ RT_COORDINATOR:0 "Coordinator"
+ # Events
+ tyranny_majority.1000.name:0 "Bi-yearly plebiscite"
+ tyranny_majority.1000.desc:0 "The moral code of our Empire should reflect the moral code of our citizens. But in a rapidly changing society like ours, they can sometimes get out of sync. It's time for our bi-yearly plebiscite to see our population's stance in numerous ethical dilemmas."
+ tyranny_majority.1.name:0 "Collectivism and Individualism"
+ tyranny_majority.10.desc:0 "It seems our population has taken a strong stance toward collectivism, seeing the needs of many as the only needs worth considering."
+ tyranny_majority.11.desc:0 "The majority of our Empire thinks that cooperation is more important than individual ambitions. By contributing to society as a whole, each one of us has much more to gain."
+ tyranny_majority.12.desc:0 "To most of our people, society should benefit the individual, but not the other way around. Only by preserving essential individual freedoms we can grow as an Empire."
+ tyranny_majority.13.desc:0 "There's no such thing as society. There's only distinct individuals that decide to work together. That's what the numerous individuals within our Empire thinks."
+ tyranny_majority.14.desc:0 "Our people has no strong stance toward neither Collectivism nor Individualism."
+ tyranny_majority.2.name:0 "Xenophobia and Xenophilia"
+ tyranny_majority.20.desc:0 "Influence from outsiders is a threat to our identity, our safety and way of thinking. We should stay true to ourselves by any means necessary."
+ tyranny_majority.21.desc:0 "Even if most xenos are not actively ploting against us, we should not be eager to trust them. Everyone is better off staying with their own."
+ tyranny_majority.22.desc:0 "There's much to gain from different Empires and species, and little else to lose. We should not fear foreigners and outsiders, but receive them with open arms."
+ tyranny_majority.23.desc:0 "The numerous species across the galaxy are our brothers and sisters. Our Empire should be theirs, too, if so they wish."
+ tyranny_majority.24.desc:0 "Our people has no strong stance toward neither Xenophobia nor Xenophilia."
+ tyranny_majority.3.name:0 "Militarism and Pacifism"
+ tyranny_majority.30.desc:0 "The cries of our people are clear: if you want peace, prepare for war."
+ tyranny_majority.31.desc:0 "A strong military force is important to all aspects of our peoples' lives. Our citizens may not be actively looking for war, but are not shunning away from it either."
+ tyranny_majority.32.desc:0 "'Why must we fight?', our people asks. Conflict and violence is a sad reality of our world. We should try our best to stay away from it."
+ tyranny_majority.33.desc:0 "A war has no winners, only losers; and the victim may lose his life, land and family, but the aggressor loses his dignity forever."
+ tyranny_majority.34.desc:0 "Our people has no strong stance toward neither Militarism nor Pacifism."
+ tyranny_majority.4.name:0 "Materialism and Spiritualism"
+ tyranny_majority.40.desc:0 "Our citizens have no need for imaginary friends. Matter is the only thing that matters."
+ tyranny_majority.41.desc:0 "Through technology, we have surpassed the gods of old. That some people still bow down to them is a mystery."
+ tyranny_majority.42.desc:0 "The illusory nature of matter has not blinded our people. They know that only by fortifying our spirits we have any hope to keep evolving."
+ tyranny_majority.43.desc:0 "These bodies of ours are just transitory homes to our minds and souls. It's with them that we should care."
+ tyranny_majority.44.desc:0 "Our people has no strong stance toward neither Materialism nor Spiritualism."

@@ -1,0 +1,347 @@
+##########################################################################
+# Tyranny of the Majority Events
+# by Lucas Pinheiro Silva
+##########################################################################
+
+namespace = tyranny_majority
+
+### Collectivist-Individualist axis
+
+country_event = {
+  id = tyranny_majority.10
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.1.name"
+  desc = "tyranny_majority.10.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_collectivist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.11
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.1.name"
+  desc = "tyranny_majority.11.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_collectivist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.12
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.1.name"
+  desc = "tyranny_majority.12.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_individualist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.13
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.1.name"
+  desc = "tyranny_majority.13.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_individualist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.14
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.1.name"
+  desc = "tyranny_majority.14.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_remove_ethic = "ethic_fanatic_collectivist"
+    country_remove_ethic = "ethic_collectivist"
+    country_remove_ethic = "ethic_individualist"
+    country_remove_ethic = "ethic_fanatic_individualist"
+  }
+}
+
+
+### Xenophobe-Xenophile axis
+
+country_event = {
+  id = tyranny_majority.20
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.2.name"
+  desc = "tyranny_majority.20.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_xenophobe"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.21
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.2.name"
+  desc = "tyranny_majority.21.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_xenophobe"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.22
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.2.name"
+  desc = "tyranny_majority.22.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_xenophile"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.23
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.2.name"
+  desc = "tyranny_majority.23.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_xenophile"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.24
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.2.name"
+  desc = "tyranny_majority.24.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_remove_ethic = "ethic_fanatic_xenophobe"
+    country_remove_ethic = "ethic_xenophobe"
+    country_remove_ethic = "ethic_xenophile"
+    country_remove_ethic = "ethic_fanatic_xenophile"
+  }
+}
+
+### Militarist-Pacifist axis
+
+country_event = {
+  id = tyranny_majority.30
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.3.name"
+  desc = "tyranny_majority.30.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_militarist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.31
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.3.name"
+  desc = "tyranny_majority.31.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_militarist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.32
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.3.name"
+  desc = "tyranny_majority.32.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_pacifist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.33
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.3.name"
+  desc = "tyranny_majority.33.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_pacifist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.34
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.3.name"
+  desc = "tyranny_majority.34.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_remove_ethic = "ethic_fanatic_militarist"
+    country_remove_ethic = "ethic_militarist"
+    country_remove_ethic = "ethic_pacifist"
+    country_remove_ethic = "ethic_fanatic_pacifist"
+  }
+}
+
+### Materialist-Spiritualist axis
+
+country_event = {
+  id = tyranny_majority.40
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.4.name"
+  desc = "tyranny_majority.40.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_materialist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.41
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.4.name"
+  desc = "tyranny_majority.41.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_materialist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.42
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.4.name"
+  desc = "tyranny_majority.42.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_spiritualist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.43
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.4.name"
+  desc = "tyranny_majority.43.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_add_ethic = "ethic_fanatic_spiritualist"
+  }
+}
+
+country_event = {
+  id = tyranny_majority.44
+
+  is_triggered_only = yes
+
+  title = "tyranny_majority.4.name"
+  desc = "tyranny_majority.44.desc"
+  picture = GFX_evt_galactic_senate
+  show_sound = event_conversation
+
+  option = {
+    name = INTERESTING
+    country_remove_ethic = "ethic_fanatic_materialist"
+    country_remove_ethic = "ethic_materialist"
+    country_remove_ethic = "ethic_spiritualist"
+    country_remove_ethic = "ethic_fanatic_spiritualist"
+  }
+}

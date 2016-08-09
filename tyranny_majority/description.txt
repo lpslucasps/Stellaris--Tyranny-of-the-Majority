@@ -1,0 +1,47 @@
+This mod adds a new government type (and an advanced one) with a new mechanic: every two years, a plebiscite that can change the ethos of your empire happens.
+
+Effectively, this new form of government is the opposite of a Hive Mind. The ethics divergence is very high, so expect an interesting game.
+
+These new governmenty types are [b]available to all ethics[/b]. They probably are very, veeeeery unbalanced, but should be fun to play with.
+
+[h1]Majority Rule[/h1]
+[i]An extreme form of democracy, where the will of the people and the government are one and the same. The 'ruler' is literally just a coordinator of the numerous and paradoxical whishes of the masses. Even the ethics of the Empire is decided by the masses, in a bi-yearly plebiscite open to all citizens.[/i]
+[list][*]Holds elections every 10 to 15 years
+[*]+50% Ethics Divergence
+[*]The ethos of your empire can change every 2 years through a plebiscite
+[*]+20% Migration Speed
+[*]+20% Alien Migration Attraction
+[*]+2 Empire Leader Capacity
+[*]+2 Leader Pool Size
+[*]+1 Trait Points
+[*]-1 Core Sector Systems
+[*]+2 Sector Limit
+[*]+2 Research Alternatives
+[*]+10% Society Research Speed
+[*]-20% Monthly Influence
+[*]Upgrades to Tyranny of the Majority[/list]
+
+[h1]Tyranny of the Majority[/h1]
+[i]Democracy taken to its logical extreme, to the point it becomes a dictatorship. A bi-yearly plebiscite open to all citizens decides the ethics of the Empire.[/i]
+[list][*]Holds elections every 10 to 15 years
+[*]The ethos of your empire can change every 2 years through a plebiscite
+[*]+100% Ethics Divergence
+[*]+30% Migration Speed
+[*]+30% Alien Migration Attraction
+[*]+3 Empire Leader Capacity
+[*]+3 Leader Pool Size
+[*]+2 Trait Points
+[*]-2 Core Sector Systems
+[*]+3 Sector Limit
+[*]+4 Research Alternatives
+[*]+20% Society Research Speed
+[*]-30% Monthly Influence
+[*][/list]
+
+[h1]Compatibility[/h1]
+
+Savegame compatible.
+
+No vanilla files were harmed in the creation of this mod. It should be compatible with almost everything out there. Do note, though, that any new ethos added by other mods won't be taken into account by the bi-yearly plebiscite.
+
+[i]Feedback much appreciated![/i]
