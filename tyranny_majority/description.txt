@@ -36,8 +36,7 @@ These new governmenty types are [b]available to all ethics[/b]. They probably ar
 [*]+3 Sector Limit
 [*]+4 Research Alternatives
 [*]+20% Society Research Speed
-[*]-30% Monthly Influence
-[*][/list]
+[*]-30% Monthly Influence[/list]
 
 [h1]Compatibility[/h1]
 

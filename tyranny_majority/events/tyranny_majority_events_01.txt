@@ -50,7 +50,7 @@ country_event = {
 
     # Count Fanatic Authoritarians
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_collectivist" }
+      limit = { pop_has_ethic = ethic_fanatic_collectivist }
       event_target:country_col_ind = {
         change_variable = {
           which = pops_fanatic_collectivist
@@ -68,7 +68,7 @@ country_event = {
     }
     # Count Authoritarians
     every_owned_pop = {
-      limit = { has_ethic = "ethic_collectivist" }
+      limit = { pop_has_ethic = ethic_collectivist }
       event_target:country_col_ind = {
         change_variable = {
           which = pops_collectivist
@@ -86,7 +86,7 @@ country_event = {
     }
     # Count Libertarians
     every_owned_pop = {
-      limit = { has_ethic = "ethic_individualist" }
+      limit = { pop_has_ethic = ethic_individualist }
       event_target:country_col_ind = {
         change_variable = {
           which = pops_individualist
@@ -104,7 +104,7 @@ country_event = {
     }
     # Count Fanatic Libertarians
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_individualist" }
+      limit = { pop_has_ethic = ethic_fanatic_individualist }
       event_target:country_col_ind = {
         change_variable = {
           which = pops_fanatic_individualist
@@ -124,10 +124,10 @@ country_event = {
     every_owned_pop = {
       limit = {
         NOR {
-          has_ethic = "ethic_fanatic_collectivist"
-          has_ethic = "ethic_collectivist"
-          has_ethic = "ethic_individualist"
-          has_ethic = "ethic_fanatic_individualist"
+          pop_has_ethic = ethic_fanatic_collectivist
+          pop_has_ethic = ethic_collectivist
+          pop_has_ethic = ethic_individualist
+          pop_has_ethic = ethic_fanatic_individualist
         }
       }
       event_target:country_col_ind = {
@@ -236,7 +236,7 @@ country_event = {
 
     # Count Fanatic Xenophobes
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_xenophobe" }
+      limit = { pop_has_ethic = ethic_fanatic_xenophobe }
       event_target:country_xeno = {
         change_variable = {
           which = pops_fanatic_xenophobe
@@ -254,7 +254,7 @@ country_event = {
     }
     # Count Xenophobes
     every_owned_pop = {
-      limit = { has_ethic = "ethic_xenophobe" }
+      limit = { pop_has_ethic = ethic_xenophobe }
       event_target:country_xeno = {
         change_variable = {
           which = pops_xenophobe
@@ -272,7 +272,7 @@ country_event = {
     }
     # Count Xenophiles
     every_owned_pop = {
-      limit = { has_ethic = "ethic_xenophile" }
+      limit = { pop_has_ethic = ethic_xenophile }
       event_target:country_xeno = {
         change_variable = {
           which = pops_xenophile
@@ -290,7 +290,7 @@ country_event = {
     }
     # Count Fanatic Xenophiles
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_xenophile" }
+      limit = { pop_has_ethic = ethic_fanatic_xenophile }
       event_target:country_xeno = {
         change_variable = {
           which = pops_fanatic_xenophile
@@ -310,10 +310,10 @@ country_event = {
     every_owned_pop = {
       limit = {
         NOR {
-          has_ethic = "ethic_fanatic_xenophobe"
-          has_ethic = "ethic_xenophobe"
-          has_ethic = "ethic_xenophile"
-          has_ethic = "ethic_fanatic_xenophile"
+          pop_has_ethic = ethic_fanatic_xenophobe
+          pop_has_ethic = ethic_xenophobe
+          pop_has_ethic = ethic_xenophile
+          pop_has_ethic = ethic_fanatic_xenophile
         }
       }
       event_target:country_xeno = {
@@ -422,7 +422,7 @@ country_event = {
 
     # Count Fanatic Militarists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_militarist" }
+      limit = { pop_has_ethic = ethic_fanatic_militarist }
       event_target:country_mil_pac = {
         change_variable = {
           which = pops_fanatic_militarist
@@ -440,7 +440,7 @@ country_event = {
     }
     # Count Militarists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_militarist" }
+      limit = { pop_has_ethic = ethic_militarist }
       event_target:country_mil_pac = {
         change_variable = {
           which = pops_militarist
@@ -458,7 +458,7 @@ country_event = {
     }
     # Count Pacifists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_pacifist" }
+      limit = { pop_has_ethic = ethic_pacifist }
       event_target:country_mil_pac = {
         change_variable = {
           which = pops_pacifist
@@ -476,7 +476,7 @@ country_event = {
     }
     # Count Fanatic Pacifists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_pacifist" }
+      limit = { pop_has_ethic = ethic_fanatic_pacifist }
       event_target:country_mil_pac = {
         change_variable = {
           which = pops_fanatic_pacifist
@@ -496,10 +496,10 @@ country_event = {
     every_owned_pop = {
       limit = {
         NOR {
-          has_ethic = "ethic_fanatic_militarist"
-          has_ethic = "ethic_militarist"
-          has_ethic = "ethic_pacifist"
-          has_ethic = "ethic_fanatic_pacifist"
+          pop_has_ethic = ethic_fanatic_militarist
+          pop_has_ethic = ethic_militarist
+          pop_has_ethic = ethic_pacifist
+          pop_has_ethic = ethic_fanatic_pacifist
         }
       }
       event_target:country_mil_pac = {
@@ -607,7 +607,7 @@ country_event = {
 
     # Count Fanatic Materialists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_materialist" }
+      limit = { pop_has_ethic = ethic_fanatic_materialist }
       event_target:country_mat_spi = {
         change_variable = {
           which = pops_fanatic_materialist
@@ -625,7 +625,7 @@ country_event = {
     }
     # Count Materialists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_materialist" }
+      limit = { pop_has_ethic = ethic_materialist }
       event_target:country_mat_spi = {
         change_variable = {
           which = pops_materialist
@@ -643,7 +643,7 @@ country_event = {
     }
     # Count Spiritualists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_spiritualist" }
+      limit = { pop_has_ethic = ethic_spiritualist }
       event_target:country_mat_spi = {
         change_variable = {
           which = pops_spiritualist
@@ -661,7 +661,7 @@ country_event = {
     }
     # Count Fanatic Spiritualists
     every_owned_pop = {
-      limit = { has_ethic = "ethic_fanatic_spiritualist" }
+      limit = { pop_has_ethic = ethic_fanatic_spiritualist }
       event_target:country_mat_spi = {
         change_variable = {
           which = pops_fanatic_spiritualist
@@ -681,10 +681,9 @@ country_event = {
     every_owned_pop = {
       limit = {
         NOR {
-          has_ethic = "ethic_fanatic_materialist"
-          has_ethic = "ethic_materialist"
-          has_ethic = "ethic_spiritualist"
-          has_ethic = "ethic_fanatic_spiritualist"
+          pop_has_ethic = ethic_fanatic_materialist
+          pop_has_ethic = ethic_materialist
+          pop_has_ethic = ethic_spiritualist          pop_has_ethic = ethic_fanatic_spiritualist
         }
       }
       event_target:country_mat_spi = {
@@ -744,49 +743,6 @@ country_event = {
       else {
         country_event = { id = tyranny_majority.44 }
       }
-    }
-  }
-}
-
-### Bi-yearly pulse
-
-country_event = {
-  id = tyranny_majority.1000
-
-  is_triggered_only = yes
-
-  title = "tyranny_majority.1000.name"
-  desc = "tyranny_majority.1000.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  option = {
-    name = UNDERSTOOD
-  }
-
-  immediate = {
-    country_event = { id = tyranny_majority.100 }
-    country_event = { id = tyranny_majority.200 }
-    country_event = { id = tyranny_majority.300 }
-    country_event = { id = tyranny_majority.400 }
-  }
-}
-
-event {
-  id = tyranny_majority.1001
-
-  is_triggered_only = yes
-  hide_window = yes
-
-  immediate = {
-    every_country = {
-      limit = {
-        OR = {
-          has_government = majority_rule
-          has_government = tyranny_majority
-        }
-      }
-      country_event = { id = tyranny_majority.1000 }
     }
   }
 }
