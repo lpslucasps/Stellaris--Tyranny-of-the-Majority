@@ -9,12 +9,13 @@ namespace = tyranny_majority
 
 country_event = {
   id = tyranny_majority.10
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.1.name"
   desc = "tyranny_majority.10.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -24,12 +25,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.11
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.1.name"
   desc = "tyranny_majority.11.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -39,12 +41,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.12
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.1.name"
   desc = "tyranny_majority.12.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -54,12 +57,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.13
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.1.name"
   desc = "tyranny_majority.13.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -69,12 +73,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.14
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.1.name"
   desc = "tyranny_majority.14.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -90,12 +95,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.20
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.2.name"
   desc = "tyranny_majority.20.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -105,12 +111,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.21
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.2.name"
   desc = "tyranny_majority.21.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -120,12 +127,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.22
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.2.name"
   desc = "tyranny_majority.22.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -135,12 +143,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.23
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.2.name"
   desc = "tyranny_majority.23.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -150,12 +159,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.24
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.2.name"
   desc = "tyranny_majority.24.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -170,12 +180,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.30
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.3.name"
   desc = "tyranny_majority.30.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -185,12 +196,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.31
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.3.name"
   desc = "tyranny_majority.31.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -200,12 +212,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.32
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.3.name"
   desc = "tyranny_majority.32.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -215,12 +228,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.33
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.3.name"
   desc = "tyranny_majority.33.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -230,12 +244,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.34
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.3.name"
   desc = "tyranny_majority.34.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -250,12 +265,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.40
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.4.name"
   desc = "tyranny_majority.40.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -265,12 +281,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.41
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.4.name"
   desc = "tyranny_majority.41.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -280,12 +297,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.42
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.4.name"
   desc = "tyranny_majority.42.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -295,12 +313,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.43
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.4.name"
   desc = "tyranny_majority.43.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
@@ -310,12 +329,13 @@ country_event = {
 
 country_event = {
   id = tyranny_majority.44
+
+  is_triggered_only = yes
+
   title = "tyranny_majority.4.name"
   desc = "tyranny_majority.44.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
-
-  is_triggered_only = yes
 
   option = {
     name = INTERESTING
