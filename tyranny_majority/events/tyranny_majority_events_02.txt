@@ -5,323 +5,44 @@
 
 namespace = tyranny_majority
 
-### Socialist-Capitalist axis
+### Bi-yearly pulse
 
 country_event = {
-  id = tyranny_majority.50
-  title = "tyranny_majority.1.name"
-  desc = "tyranny_majority.50.desc"
+  id = tyranny_majority.1000
+  title = "tyranny_majority.1000.name"
+  desc = "tyranny_majority.1000.desc"
   picture = GFX_evt_galactic_senate
   show_sound = event_conversation
 
   is_triggered_only = yes
 
   option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_socialism"
+    name = UNDERSTOOD
+  }
+
+  immediate = {
+    country_event = { id = tyranny_majority.100 }
+    country_event = { id = tyranny_majority.200 }
+    country_event = { id = tyranny_majority.300 }
+    country_event = { id = tyranny_majority.400 }
   }
 }
 
-country_event = {
-  id = tyranny_majority.51
-  title = "tyranny_majority.1.name"
-  desc = "tyranny_majority.51.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
+event {
+  id = tyranny_majority.1001
 
   is_triggered_only = yes
+  hide_window = yes
 
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_socialism"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.52
-  title = "tyranny_majority.1.name"
-  desc = "tyranny_majority.52.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_capitalism"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.53
-  title = "tyranny_majority.1.name"
-  desc = "tyranny_majority.53.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_capitalism"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.54
-  title = "tyranny_majority.1.name"
-  desc = "tyranny_majority.54.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_remove_ethic = "ethic_fanatic_socialism"
-    country_remove_ethic = "ethic_socialism"
-    country_remove_ethic = "ethic_capitalism"
-    country_remove_ethic = "ethic_fanatic_capitalism"
-  }
-}
-
-
-### Ecological-Industrial axis
-
-country_event = {
-  id = tyranny_majority.60
-  title = "tyranny_majority.6.name"
-  desc = "tyranny_majority.60.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_green"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.61
-  title = "tyranny_majority.6.name"
-  desc = "tyranny_majority.61.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_green"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.62
-  title = "tyranny_majority.6.name"
-  desc = "tyranny_majority.62.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_industrial"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.63
-  title = "tyranny_majority.6.name"
-  desc = "tyranny_majority.63.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_industrial"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.64
-  title = "tyranny_majority.6.name"
-  desc = "tyranny_majority.64.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_remove_ethic = "ethic_fanatic_green"
-    country_remove_ethic = "ethic_green"
-    country_remove_ethic = "ethic_industrial"
-    country_remove_ethic = "ethic_fanatic_industrial"
-  }
-}
-
-### Expansionist-Isolationist axis
-
-country_event = {
-  id = tyranny_majority.70
-  title = "tyranny_majority.7.name"
-  desc = "tyranny_majority.70.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_expansionist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.71
-  title = "tyranny_majority.7.name"
-  desc = "tyranny_majority.71.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_expansionist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.72
-  title = "tyranny_majority.7.name"
-  desc = "tyranny_majority.72.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_isolationist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.73
-  title = "tyranny_majority.7.name"
-  desc = "tyranny_majority.73.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_isolationist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.74
-  title = "tyranny_majority.7.name"
-  desc = "tyranny_majority.74.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_remove_ethic = "ethic_fanatic_expansionist"
-    country_remove_ethic = "ethic_expansionist"
-    country_remove_ethic = "ethic_isolationist"
-    country_remove_ethic = "ethic_fanatic_isolationist"
-  }
-}
-
-### Elitarian-Egalitarian axis
-
-country_event = {
-  id = tyranny_majority.80
-  title = "tyranny_majority.8.name"
-  desc = "tyranny_majority.80.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_elitist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.81
-  title = "tyranny_majority.8.name"
-  desc = "tyranny_majority.81.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_elitist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.82
-  title = "tyranny_majority.8.name"
-  desc = "tyranny_majority.82.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_pluralist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.83
-  title = "tyranny_majority.8.name"
-  desc = "tyranny_majority.83.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_add_ethic = "ethic_fanatic_pluralist"
-  }
-}
-
-country_event = {
-  id = tyranny_majority.84
-  title = "tyranny_majority.8.name"
-  desc = "tyranny_majority.84.desc"
-  picture = GFX_evt_galactic_senate
-  show_sound = event_conversation
-
-  is_triggered_only = yes
-
-  option = {
-    name = INTERESTING
-    country_remove_ethic = "ethic_fanatic_elitist"
-    country_remove_ethic = "ethic_elitist"
-    country_remove_ethic = "ethic_pluralist"
-    country_remove_ethic = "ethic_fanatic_pluralist"
+  immediate = {
+    every_country = {
+      limit = {
+        OR = {
+          has_government = majority_rule
+          has_government = tyranny_majority
+        }
+      }
+      country_event = { id = tyranny_majority.1000 }
+    }
   }
 }
