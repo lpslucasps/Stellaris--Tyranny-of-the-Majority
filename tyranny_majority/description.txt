@@ -1,5 +1,4 @@
-This mod adds a new government type (and an advanced one) with a new mechanic: every two years, a plebiscite that can change the ethos of your empire happens. The most common ethics in your population becomes the new Ethos of your Empire.
-
+This mod adds a new government type (and an advanced one) with a new mechanic: every two years, a plebiscite that can change the ethos of your empire happens.
 
 Effectively, this new form of government is the opposite of a Hive Mind. The ethics divergence is very high, so expect an interesting game.
 
@@ -9,7 +8,7 @@ These new governmenty types are [b]available to all ethics[/b]. They probably ar
 [i]An extreme form of democracy, where the will of the people and the government are one and the same. The 'ruler' is literally just a coordinator of the numerous and paradoxical whishes of the masses. Even the ethics of the Empire is decided by the masses, in a bi-yearly plebiscite open to all citizens.[/i]
 [list][*]Holds elections every 10 to 15 years
 [*]+50% Ethics Divergence
-[*]The ethos of your empire can change every 2 years through a plebiscite. The most common ethics in your population becomes the new Ethos of your Empire.
+[*]The ethos of your empire can change every 2 years through a plebiscite
 [*]+20% Migration Speed
 [*]+20% Alien Migration Attraction
 [*]+2 Empire Leader Capacity
@@ -25,7 +24,7 @@ These new governmenty types are [b]available to all ethics[/b]. They probably ar
 [h1]Tyranny of the Majority[/h1]
 [i]Democracy taken to its logical extreme, to the point it becomes a dictatorship. A bi-yearly plebiscite open to all citizens decides the ethics of the Empire.[/i]
 [list][*]Holds elections every 10 to 15 years
-[*]The ethos of your empire can change every 2 years through a plebiscite. The most common ethics in your population becomes the new Ethos of your Empire.
+[*]The ethos of your empire can change every 2 years through a plebiscite
 [*]+100% Ethics Divergence
 [*]+30% Migration Speed
 [*]+30% Alien Migration Attraction
