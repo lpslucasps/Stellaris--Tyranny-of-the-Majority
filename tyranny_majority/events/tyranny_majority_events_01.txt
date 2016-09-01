@@ -5,7 +5,7 @@
 
 namespace = tyranny_majority
 
-### Compare the Collectivist-Individualist axis
+### Compare the Authoritarian-Libertarian axis
 
 country_event = {
   id = tyranny_majority.100
@@ -48,7 +48,7 @@ country_event = {
     }
     save_event_target_as = country_col_ind
 
-    # Count Fanatic Collectivists
+    # Count Fanatic Authoritarians
     every_owned_pop = {
       limit = { pop_has_ethic = ethic_fanatic_collectivist }
       event_target:country_col_ind = {
@@ -66,7 +66,7 @@ country_event = {
         }
       }
     }
-    # Count Collectivists
+    # Count Authoritarians
     every_owned_pop = {
       limit = { pop_has_ethic = ethic_collectivist }
       event_target:country_col_ind = {
@@ -84,7 +84,7 @@ country_event = {
         }
       }
     }
-    # Count Individualists
+    # Count Libertarians
     every_owned_pop = {
       limit = { pop_has_ethic = ethic_individualist }
       event_target:country_col_ind = {
@@ -102,7 +102,7 @@ country_event = {
         }
       }
     }
-    # Count Fanatic Individualists
+    # Count Fanatic Libertarians
     every_owned_pop = {
       limit = { pop_has_ethic = ethic_fanatic_individualist }
       event_target:country_col_ind = {
@@ -146,7 +146,7 @@ country_event = {
           value > pops_neutral_col_ind
         }
       }
-      # If collectivists > individualists
+      # If authoritarians > libertarians
       if = {
         limit = {
           check_variable = {
@@ -167,7 +167,7 @@ country_event = {
             country_event = { id = tyranny_majority.11 }
           }
         }
-        # If individualists > collectivists
+        # If libertarians > authoritarians
         else = {
           # If fanatics > moderates
           if = {
@@ -565,8 +565,7 @@ country_event = {
 
 ### Materialist - Spiritualist axis
 
-country_event = {
-  id = tyranny_majority.400
+3  id = tyranny_majority.400
 
   is_triggered_only = yes
   hide_window = yes
